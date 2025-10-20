@@ -15,3 +15,24 @@ A 2-3 tree is a multi-way search tree in which each node has two children (refer
 
 ![Parent/child nodes](assets/images/parent-child-nodes.png)
 
+## Inserting Elements into a 2-3 Tree
+
+All insertions in a 2-3 tree occur at the leaves of the tree. The tree is searched to determine where the new element will go, then it is inserted. The process of inserting an element into a 2-3 tree can have a ripple effect on the structure of the rest of the tree. Inserting an element into a 2-3 tree can be divided into three cases:
+
+### Case 1: Empty Tree
+
+The simplest case is that the tree is empty.  
+In this case, a new node is created containing the new element.  
+The node is then designated as the root of the tree.
+
+### Case 2: Inserting into a 2-Node Leaf
+
+The second case occurs when we want to insert a new element at a leaf that is a 2-node.  
+In this case, the new element is added to the 2-node, making it a 3-node.
+
+### Case 3: Inserting into a 3-Node Leaf
+
+The third insertion situation occurs when we want to insert a new element at a leaf that is a 3-node.  
+In this case, the 3-node is split and the middle element is moved up a level in the tree, and the insertion process is repeated.  
+When the root of the tree is split, the height of the tree increases by one.
+
