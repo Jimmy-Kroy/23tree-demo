@@ -63,4 +63,39 @@ All tree functions are encapsulated in two template classes: CTree and CNode. Ea
 CTree<CMovie> *pMovieTree = new CTree<CMovie>();
 ```
 
+In order for the CTree object to make the necessary key comparisons, the key object must implement the < operator.
+
+```cpp
+class CMovie
+{
+    inline bool operator< (const CMovie& rCMovie) const
+    {
+        return (strcmp(this->getTitle(), rCMovie.getTitle()) < 0);
+    }
+};
+
+int CTree<T>::TCompare(const T* const pT1, const T* const pT2) const
+{
+    int iReturnCode = FAILURE;
+    if (*pT1 < *pT2)
+    {
+        iReturnCode = LESS;
+    }
+    else if (*pT2 < *pT1)
+    {
+        iReturnCode = GREATER;
+    }
+    else
+    {
+        iReturnCode = EQUAL;
+    }
+    return iReturnCode;
+}
+```
+
+
+
+
+
+
 
