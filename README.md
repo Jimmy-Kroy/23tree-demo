@@ -152,8 +152,6 @@ The code is well tested. A summary of the test cases used can be found in the in
 
 # References
 
-**Java Software Structures**  
-*Designing and Using Data Structures* (Second Edition)  
-Authors: Lewis and Chase
+1. **Java Software Structures** *Designing and Using Data Structures* (Second Edition) Authors: Lewis and Chase
 
 
