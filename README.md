@@ -31,4 +31,4 @@ The second case occurs when we want to insert a new element at a leaf that is a 
 
 The third insertion situation occurs when we want to insert a new element at a leaf that is a 3-node. In this case, the 3-node is split and the middle element is moved up a level in the tree, and the insertion process is repeated. When the root of the tree is split, the height of the tree increases by one.  
 
-
+![insertion-into-a-2-3-tree](assets/images/insertion-into-a-2-3-tree.png)
