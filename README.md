@@ -32,3 +32,26 @@ The second case occurs when we want to insert a new element at a leaf that is a 
 The third insertion situation occurs when we want to insert a new element at a leaf that is a 3-node. In this case, the 3-node is split and the middle element is moved up a level in the tree, and the insertion process is repeated. When the root of the tree is split, the height of the tree increases by one.  
 
 ![insertion-into-a-2-3-tree](assets/images/insertion-into-a-2-3-tree.png)
+
+## Deleting elements from a 2-3 tree
+
+Deleting elements from a 2-3 tree is also made up of three cases:
+
+## Removing from a Leaf 3-Node
+
+The simplest case is that the element to be removed is in a leaf that is a 3-node. In this case, removal is simply a matter of removing the element from the node.
+
+## Removing from a Leaf 2-Node
+
+The second case is that the element to be removed is in a leaf that is a 2-node. This condition is called underflow and creates a situation in which we must rotate or merge nodes in order to maintain the properties of the 2-3 tree.
+
+## Removing from an Internal Node
+
+The third case is that the element to be removed is in an internal node. In this case, we can simply replace the element to be removed with its inorder successor. The inorder successor of an internal element will always be a leaf element. After replacement we can simply remove the leaf element using the first or second case.
+
+![deletion-from-a-2-3-tree](assets/images/deletion-from-a-2-3-tree.png)
+
+
+
+
+
