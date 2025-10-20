@@ -1,5 +1,25 @@
 # 2-3 Tree Implementation in C++
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Background](#background)
+  - [Inserting Elements into a 2-3 Tree](#inserting-elements-into-a-2-3-tree)
+    - [Empty Tree](#empty-tree)
+    - [Inserting into a 2-Node Leaf](#inserting-into-a-2-node-leaf)
+    - [Inserting into a 3-Node Leaf](#inserting-into-a-3-node-leaf)
+  - [Deleting Elements from a 2-3 Tree](#deleting-elements-from-a-2-3-tree)
+    - [Removing from a Leaf 3-Node](#removing-from-a-leaf-3-node)
+    - [Removing from a Leaf 2-Node](#removing-from-a-leaf-2-node)
+    - [Removing from an Internal Node](#removing-from-an-internal-node)
+- [Using the Code](#using-the-code)
+  - [Creating a Tree Object](#to-create-a-tree-object-call-the-default-constructor)
+  - [Operator Overloads](#in-order-for-the-ctree-object-to-make-the-necessary-key-comparisons)
+  - [Overview of Public CTree Functions](#overview-of-public-ctree-functions)
+- [Output from the Test Project](#output-from-the-test-project)
+- [Points of Interest](#points-of-interest)
+- [References](#references)
+
 # Introduction
 
 This C++ application demonstrates the functionality of a 2-3 tree data structure. It supports dynamic insertion and deletion of elements, providing a clear illustration of balanced tree operations and node restructuring in real time. The implementation is based on several articles found on the internet. These articles can be found in the references section, which also offers articles with an in-depth explanation of a 2-3 tree.
