@@ -93,7 +93,16 @@ int CTree<T>::TCompare(const T* const pT1, const T* const pT2) const
 }
 ```
 
+In order for the CTree object to print the key objects, the key object must also implement the << operator.
 
+```cpp
+// Overload the output stream operator for CMovie
+friend std::ostream& operator<<(std::ostream& out, CMovie& rCMovie)
+{
+    out << rCMovie.getTitle() << ":" << rCMovie.getReleaseYear();
+    return out;
+}
+```
 
 
 
