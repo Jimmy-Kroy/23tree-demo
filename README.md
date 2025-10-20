@@ -104,7 +104,56 @@ friend std::ostream& operator<<(std::ostream& out, CMovie& rCMovie)
 }
 ```
 
+## Overview of public CTree functions
 
+```cpp
+//Inserts a new key in the tree.
+int insert(const T* const pKey)
 
+//Deletes a key and fixes the tree.
+int deleteItem(const T* const pKey)
+
+//Searches for a specified key in the tree.
+const T* const find(const T* const)
+
+//Prints all keys (inorder, postorder, and preorder).
+int print(eTreeTraversal eTraversalMethod) const
+
+//Removes all tree nodes.
+int removeAll(void)
+```
+
+# Output from the test project
+
+The sample project demonstrates various method calls to the tree. The resulting output is shown in a console window. Executing one of the test cases produces the following output:
+
+![console-output](assets/images/console-output.png)
+
+# Points of Interest
+
+Tree structures are designed to store key objects. These key objects may contain key attributes used for comparison and data attributes. To search for a specific object in the tree, a search object is created with the comparison attributes set. This object is passed to a method that searches the tree and returns the result.
+
+Examples of tree searches can be found in the demo project.
+
+Templates used in tree classes are implemented in header files. Boolean flags are used to indicate which keys are set due to the usage of template variables.
+
+```cpp
+T m_tSmallKey;
+T m_tBigKey;
+bool m_bBigKeyIsSet;
+bool m_bSmallKeyIsSet;
+```
+
+The code is well tested. A summary of the test cases used can be found in the included document TreeTestcases.pdf. Improvements that can be made to the code include:
+
+1. Displaying the tree in a graphical format instead of a Windows console
+2. Optimizing the code for speed
+3. Improving the readability of the print function
+
+# References
+
+**Java Software Structures**  
+*Designing and Using Data Structures* (Second Edition)  
+Authors: Lewis and Chase
 
 
