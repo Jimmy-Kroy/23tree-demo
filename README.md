@@ -3,13 +3,13 @@ This C++ application demonstrates the functionality of a 2-3 tree data structure
 
 # 2-3 Tree Implementation in C++
 
-## Introduction
+# Introduction
 
 This repository provides a 2-3 tree implementation in the C++ language. The implementation is based on several articles found on the internet. These articles can be found in the references section, which also offers articles with an in-depth explanation of a 2-3 tree.
 
 For the implementation I used a threaded tree. A threaded tree makes use of a parent pointer. This parent pointer makes it easier to move from a child node to its corresponding parent without using recursion. In addition, I used templates to enable the usage of different data types in the 2-3 tree.
 
-## Background
+# Background
 
 A 2-3 tree is a multi-way search tree in which each node has two children (referred to as a two node) or three children (referred to as a three node). A two node contains one element. The left subtree contains elements that are less than the node element. The right subtree contains elements that are greater than the node element. However, unlike a binary search tree, a two node can have either no children or two children; it cannot have just one child. A three node contains two elements, one designated as the smaller element and one designated as the larger element. A three node has either no children or three children. If a three node has children, the left subtree contains elements that are less than the smaller node element. The right subtree contains elements that are greater than the larger node element. The middle subtree contains elements that are greater than the smaller node element and less than the larger node element. Due to the self-balancing effect of a 2-3 tree, all the leaves are on the same level. A 2-3 tree of size N has a search time complexity of O(log N).
 
@@ -51,7 +51,16 @@ The third case is that the element to be removed is in an internal node. In this
 
 ![deletion-from-a-2-3-tree](assets/images/deletion-from-a-2-3-tree.png)
 
+# Using the code
 
+The code is ready to use. The test cases are described in the document TreeTestcases.pdf, which is included in the project. The CTree class is used to create a tree object. The << and >> operators are used in the CTree class.
 
+All tree functions are encapsulated in two template classes: CTree and CNode. Each tree function has a comment block describing its functionality. The implementation avoids recursion to prevent stack overflow, using loops instead. The print function is more complicated due to this approach.
+
+### To create a tree object, call the default constructor.
+
+```cpp
+CTree<CMovie> *pMovieTree = new CTree<CMovie>();
+```
 
 
