@@ -70,7 +70,7 @@ The third case is that the element to be removed is in an internal node. In this
 
 # Using the code
 
-The code is ready to use. The test cases are described in the document TreeTestcases.pdf, which is included in the project. The CTree class is used to create a tree object. The << and >> operators are used in the CTree class.
+The code is ready to use. The test cases are described in the document TreeTestcases.pdf, which can be found [here](assets/files/TreeTestCases.pdf). The CTree class is used to create a tree object. The << and >> operators are used in the CTree class.
 
 All tree functions are encapsulated in two template classes: CTree and CNode. Each tree function has a comment block describing its functionality. The implementation avoids recursion to prevent stack overflow, using loops instead. The print function is more complicated due to this approach.
 
