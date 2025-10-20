@@ -161,7 +161,7 @@ bool m_bBigKeyIsSet;
 bool m_bSmallKeyIsSet;
 ```
 
-The code is well tested. A summary of the test cases used can be found in the included document TreeTestcases.pdf. Improvements that can be made to the code include:
+The code is well tested. A summary of the test cases can be found [here](assets/files/TreeTestCases.pdf). Improvements that can be made to the code include:
 
 1. Displaying the tree in a graphical format instead of a Windows console
 2. Optimizing the code for speed
