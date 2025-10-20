@@ -37,15 +37,15 @@ The third insertion situation occurs when we want to insert a new element at a l
 
 Deleting elements from a 2-3 tree is also made up of three cases:
 
-## Removing from a Leaf 3-Node
+### Removing from a Leaf 3-Node
 
 The simplest case is that the element to be removed is in a leaf that is a 3-node. In this case, removal is simply a matter of removing the element from the node.
 
-## Removing from a Leaf 2-Node
+### Removing from a Leaf 2-Node
 
 The second case is that the element to be removed is in a leaf that is a 2-node. This condition is called underflow and creates a situation in which we must rotate or merge nodes in order to maintain the properties of the 2-3 tree.
 
-## Removing from an Internal Node
+### Removing from an Internal Node
 
 The third case is that the element to be removed is in an internal node. In this case, we can simply replace the element to be removed with its inorder successor. The inorder successor of an internal element will always be a leaf element. After replacement we can simply remove the leaf element using the first or second case.
 
