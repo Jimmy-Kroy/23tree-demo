@@ -344,7 +344,7 @@ int _tmain(int argc, _TCHAR* argv[])
     pMovieTree9->insert(new CMovie("Happy Gilmore",1989));	
 	pMovieTree9->deleteItem(new CMovie("Matrix"));
     printOrders(pMovieTree9);
-    std::cout << "App finished" << std::endl;
+    std::cout << std::endl << "App finished" << std::endl << std::endl;
 	std::cin.ignore();
 	return 0;
 }
