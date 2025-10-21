@@ -34,3 +34,21 @@ This document provides comprehensive test cases for deletion operations in a 2-3
 |--------------|----------------|----------------|
 | ![Initial](assets/images/0.png) | ![Result](assets/images/1.png) | ![Traversal](assets/images/2.png) |
 
+#### ➤ Delete 34
+
+| Initial Tree | Resulting Tree | Tree Traversal |
+|--------------|----------------|----------------|
+| ![Initial](assets/images/3.png) | ![Result](assets/images/4.png) | ![Traversal](assets/images/5.png) |
+
+---
+
+
+
+
+
+
+
+
+
+
+
