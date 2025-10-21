@@ -106,6 +106,16 @@ This document provides comprehensive test cases for deletion operations in a 2-3
 |--------------|----------------|----------------|
 | ![Initial](assets/images/27.png) | ![Result](assets/images/28.png) | ![Traversal](assets/images/29.png) |
 
+### Testcase 005: Take from rightmost child of the left child of the root.
+
+**Input Array:** `{98, 13, 46, 14, 79, 38, 74, 76, 41, 16, 67, 92, 86, 53, 50, 44}`
+
+#### ➤ Delete 50
+
+| Initial Tree | Resulting Tree | Tree Traversal |
+|--------------|----------------|----------------|
+| ![Initial](assets/images/30.png) | ![Result](assets/images/31.png) | ![Traversal](assets/images/32.png) |
+
 ---
 
 
