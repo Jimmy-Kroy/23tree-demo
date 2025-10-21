@@ -24,7 +24,7 @@ This document provides comprehensive test cases for deletion operations in a 2-3
 
 ## 🔄 Local Rotation
 
-### Testcase 001 – Case 1: Take from Right
+### Testcase 001: Take from Right
 
 **Input Array:** `{67, 34, 23, 88, 96, 14, 4, 27}`
 
@@ -71,6 +71,16 @@ This document provides comprehensive test cases for deletion operations in a 2-3
 | ![Initial](assets/images/18.png) | ![Result](assets/images/19.png) | ![Traversal](assets/images/20.png) |
 
 > **Note:** Deleting 96 results in an empty tree.
+
+### Testcase 002: Take from middle first.
+
+**Input Array:** `{37, 11, 17, 48, 78, 87, 93, 67, 68, 83}`
+
+#### ➤ Delete 67
+
+| Initial Tree | Resulting Tree | Tree Traversal |
+|--------------|----------------|----------------|
+| ![Initial](assets/images/21.png) | ![Result](assets/images/22.png) | ![Traversal](assets/images/23.png) |
 
 ---
 
