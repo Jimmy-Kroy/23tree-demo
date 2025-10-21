@@ -118,10 +118,9 @@ This document provides comprehensive test cases for deletion operations in a 2-3
 
 ---
 
+## 📝 Notes
 
-
-
-
-
-
+- Testcases are referenced from the `assets/files/TreeTestCases.pdf` file in the repository
+- Each test case demonstrates specific 2-3 tree deletion scenarios and their resulting tree structures
+- All tree traversals shown are in the format: [Inorder, Preorder, Postorder]
 
