@@ -46,6 +46,14 @@ This document provides comprehensive test cases for deletion operations in a 2-3
 |--------------|----------------|----------------|
 | ![Initial](assets/images/6.png) | ![Result](assets/images/7.png) | ![Traversal](assets/images/8.png) |
 
+#### ➤ Delete 88
+
+| Initial Tree | Resulting Tree | Tree Traversal |
+|--------------|----------------|----------------|
+| ![Initial](assets/images/9.png) | ![Result](assets/images/10.png) | ![Traversal](assets/images/11.png) |
+
+
+
 ---
 
 
