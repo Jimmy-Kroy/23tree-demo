@@ -82,6 +82,16 @@ This document provides comprehensive test cases for deletion operations in a 2-3
 |--------------|----------------|----------------|
 | ![Initial](assets/images/21.png) | ![Result](assets/images/22.png) | ![Traversal](assets/images/23.png) |
 
+### Testcase 003: Take from right.
+
+**Input Array:** `{20, 25, 43, 47, 12, 56, 15, 70, 86, 92}`
+
+#### ➤ Delete 43
+
+| Initial Tree | Resulting Tree | Tree Traversal |
+|--------------|----------------|----------------|
+| ![Initial](assets/images/24.png) | ![Result](assets/images/25.png) | ![Traversal](assets/images/26.png) |
+
 ---
 
 
