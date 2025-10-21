@@ -58,7 +58,19 @@ This document provides comprehensive test cases for deletion operations in a 2-3
 |--------------|----------------|----------------|
 | ![Initial](assets/images/12.png) | ![Result](assets/images/13.png) | ![Traversal](assets/images/14.png) |
 
+#### ➤ Delete 67
 
+| Initial Tree | Resulting Tree | Tree Traversal |
+|--------------|----------------|----------------|
+| ![Initial](assets/images/15.png) | ![Result](assets/images/16.png) | ![Traversal](assets/images/17.png) |
+
+#### ➤ Delete 14
+
+| Initial Tree | Resulting Tree | Tree Traversal |
+|--------------|----------------|----------------|
+| ![Initial](assets/images/18.png) | ![Result](assets/images/19.png) | ![Traversal](assets/images/20.png) |
+
+> **Note:** Deleting 96 results in an empty tree.
 
 ---
 
