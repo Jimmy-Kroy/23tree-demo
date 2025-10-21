@@ -5,13 +5,13 @@ This document provides comprehensive test cases for deletion operations in a 2-3
 ---
 
 ## 📚 Table of Contents
--  [Local Rotation](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#-Local-Rotation)
-    -  [Testcase 001–003](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#testcase-001--case-1-take-from-right)
+-  [Local Rotation](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#-local-rotation)
+    -  [Testcase 001–003](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#testcase-001-take-from-right)
 
--  [Global Rotation](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#global-rotation)
-    -  [Testcase 009–014](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#testcase-009--global-rotation-case-9)
+-  [Global Rotation](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#-global-rotation)
+    -  [Testcase 004–005](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#testcase-004-take-from-leftmost-child-of-middle-child-of-the-root)
 
--  [Notes](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md##-notes)
+-  [Notes](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#-notes)
 
 ---
 
