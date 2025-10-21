@@ -11,18 +11,6 @@ This document provides comprehensive test cases for deletion operations in a 2-3
 -  [Global Rotation](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#global-rotation)
     -  [Testcase 009–014](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#testcase-009--global-rotation-case-9)
 
--  [Local Node Merger](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#local-node-merger)
-    -  [Testcase 015–017](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#testcase-015--local-node-merger-case-15)
-
--  [Global Node Merger](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#global-node-merger)
-    -  [Testcase 018–019](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#testcase-018--global-node-merger-case-18)
-
--  [Removing Internal Element](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#removing-internal-element)
-    -  [Testcase 020](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#testcase-020--removing-internal-element-case-20)
-
--  [Complex Insert/Delete Sequence](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#complex-insertdelete-sequence)
-    -  [Testcase 021](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#testcase-021--complex-insertdelete-sequence)
-
 -  [Notes](https://github.com/Jimmy-Kroy/23tree-demo/blob/main/TreeDeletionTestCases.md#notes)
 
 ---
@@ -123,7 +111,7 @@ This document provides comprehensive test cases for deletion operations in a 2-3
 
 ---
 
-## 📝 Notes
+📝 ## Notes
 
 - Testcases are referenced from the `assets/files/TreeTestCases.pdf` file in the repository
 - Each test case demonstrates specific 2-3 tree deletion scenarios and their resulting tree structures
